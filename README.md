@@ -1,57 +1,54 @@
-# OCG-LLM: Operational Closure & Generative Topological Contraction
-# OCG-LLM: 运行闭合与生成拓扑收缩理论
+# Protocol-as-System (PaS) 
+### 声明式协议计算范式：实现可审计的 AI 生成
+### A Declarative Protocol Computing Paradigm for Auditable AI Generation
 
-**Author:** Cheung Tiehua ([cheungtiehua@gmail.com](mailto:cheungtiehua@gmail.com))  
-**Status:** Independent Research (独立研究) | **Field:** Theoretical AI, Topological Dynamics
-
----
-
-## 🧬 Overview / 概述
-
-This repository hosts the formal framework for **Operationally Closed Generation (OCG)**. Unlike traditional instruction-driven prompting, this research redefines generative stability as a property of **contextual topological structure**.
-[cite_start]本仓库展示了 **运行闭合生成 (OCG)** 的形式化框架。与传统的指令驱动提示词（Prompting）不同，本研究将生成稳定性重新定义为**上下文拓扑结构**的一种属性 [cite: 9, 32]。
-
-The core thesis is that current LLMs operate in an **Open Topology Generation (OTG)** state, leading to probabilistic drift. By applying **Declarative Operational Closure (DOC)**, we can induce a **Probabilistic Stable Operational State (PSOS)** through topological contraction.
-[cite_start]核心论点是：当前的大语言模型（LLMs）运行在**开放拓扑生成 (OTG)** 状态，导致了概率漂移。通过应用**声明式运行闭合 (DOC)**，我们可以通过拓扑收缩诱导出一个**概率稳定运行状态 (PSOS)** [cite: 11, 13]。
+**Author:** Cheung Tiehua (cheungtiehua@gmail.com)  
+**Field:** Theoretical AI, System Architecture, Topological Dynamics  
+**Core Model:** PC-ITS (Protocol-Constrained Interactive Transition System)
 
 ---
 
-## 核心数学模型：最小闭合内核 (The Minimal Closure Kernel)
+## 💡 Overview / 概述
 
-The transition from open dynamics to a bounded operational domain is defined by the structural lower bound $\mathcal{K}_{min}$:
-[cite_start]从开放动态向受限运行域的转变由结构下界 $\mathcal{K}_{min}$ 定义 ：
+This repository presents a novel paradigm for AI governance: **Protocol-as-System (PaS)**. We redefine AI not as an autonomous agent, but as a **"State Transition Proposal Generator."** 本仓库提出了一种全新的 AI 治理范式：**协议即系统 (PaS)**。我们重新定义了 AI 的角色——它不再是一个自主执行的主体，而是一个“**状态转移提议生成器**”。
 
-$$\mathcal{K}_{min} = \{ \Sigma, T, F, A \}$$
+### Two Pillars of the Framework / 框架的两大支柱：
 
-* **$\Sigma$ (State Declaration / 状态声明)**: Explicit definition of operational states to demarcate the bounded domain.
-    显式定义运行状态，以划定受限域 [cite: 109]。
-* **$T$ (Transition Rules / 迁移规则)**: Conditional relations between states that restrict the generative branch space.
-    状态间的条件关系，限制生成分支空间 [cite: 111]。
-* **$F$ (Failure Boundaries / 失败边界)**: Rejection or termination mechanisms for undefined operations or illegal branches.
-    对未定义操作或非法分支的拒绝或终止机制 [cite: 113]。
-* **$A$ (Arbitration Mechanism / 仲裁机制)**: Structural consistency and compliance verification prior to token output.
-    在令牌（Token）输出前进行结构一致性和合规性验证 [cite: 115]。
+1. **Top-down: Protocol-as-System (PaS)** System behavior is governed by explicit, non-bypassable, and auditable **Declarative Protocols**.  
+   **自上而下：协议即系统 (PaS)** —— 系统行为由显式、不可绕过且可审计的“声明式协议”统一裁定。
+
+2. **Bottom-up: Operational Closure (OCG/DOC)** Achieving generative stability through **Topological Contraction**. By applying Declarative Operational Closure (DOC), we induce a Probabilistic Stable Operational State (PSOS).  
+   **自下而上：运行闭合 (OCG)** —— 通过“拓扑收缩”实现生成稳定性。通过应用声明式运行闭合 (DOC)，诱导模型进入概率稳定运行状态 (PSOS)。
 
 ---
 
-## 关键假设 (Key Hypotheses)
+## 🏗️ Core Theory / 核心理论
 
-* [cite_start]**Closure Contraction (H1 / 闭合收缩假设)**: Operational closure induces contraction of the effective generative branch space [cite: 93, 94]。
-* [cite_start]**Structural Resolution (H2 / 结构分辨率假设)**: Higher structural resolution yields more stable PSOS [cite: 95, 96]。
-* [cite_start]**Agent-Externalization (H3 / 主体去中心化假设)**: Removing personified language reduces semantic expansion and enhances closure strength [cite: 97, 98]。
-* [cite_start]**Hallucination Governance (幻觉治理)**: Hallucination reduction is a byproduct of topological contraction, not a targeted intervention [cite: 80, 81]。
+### 1. PC-ITS Model (协议约束状态机)
+We formalize the interaction as: $\mathcal{V} = \langle S, A, P, \delta, \Omega \rangle$
+- **S**: State Space (状态空间)
+- **A**: Action Proposals (动作提议)
+- **P**: Protocol Predicates (协议判定: ALLOW / DENY)
+- **$\delta$**: Transition Function (受控转移函数)
+
+### 2. Topological Contraction (拓扑收缩)
+The system constrains the "probabilistic drift" of LLMs by defining a **Minimal Closure Kernel ($\mathcal{K}_{min}$)**.
+系统通过定义“最小闭合内核”，限制了大语言模型的概率漂移，解决了幻觉与失控问题。
 
 ---
 
 ## 📂 Repository Structure / 仓库结构
 
-* `/Paper`: Full text of *"Operational Closure and Generative Topological Contraction in Large Language Models"* (PDF/Docx).
-* `/Formalization`: Detailed breakdown of the **Operational Closure Criteria (OCC)**.
-* `/Examples`: Implementation of **DOC layered structures** (from Operational Mode to Output Arbitration).
+* **`/Papers`**: 
+    * `Protocol-as-System.pdf/docx`: The system architecture paradigm. (系统架构范式)
+    * `Operational_Closure.pdf/docx`: The underlying mathematical/topological theory. (底层数学/拓扑理论)
+* **`/Examples`**: Demonstrations of DOC and PaS implementations. (协议实现示例)
+
+---
 
 ## 📜 Citation / 引用
 
-If you use this framework or the PSOS model in your research, please cite it as:
-如果您在研究中使用此框架或 PSOS 模型，请引用：
+If you use this framework in your research, please cite:
+如果您在研究中使用此框架，请引用：
 
-> Cheung, T. (2026). *Operational Closure and Generative Topological Contraction in Large Language Models*. GitHub Repository: [Your Repo Link]
+> Cheung, T. (2026). Protocol-as-System: A Declarative Protocol Computing Paradigm for Auditable AI Generation. GitHub: [Your-Repo-URL]
