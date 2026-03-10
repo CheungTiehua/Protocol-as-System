@@ -29,7 +29,7 @@ This repository hosts the formal framework for **Protocol-as-System (PaS)**, a p
 We formalize the system interaction as a 5-tuple:  
 我们将系统交互形式化为五元组：
 
-$$\mathcal{V} = \langle S, A, P, \delta, \Omega \rangle$$
+$$V = \langle S, A, P, \delta, \Omega \rangle$$
 
 * **S (State Space)**: Explicitly defined, auditable structured objects. (显式定义的结构化状态对象)
 * **A (Action Proposals)**: Generative outputs treated as unexecuted transition requests. (作为未执行转移请求的生成输出)
@@ -38,17 +38,17 @@ $$\mathcal{V} = \langle S, A, P, \delta, \Omega \rangle$$
 * **$\Omega$ (Sovereign Source)**: External mechanism for non-autonomous finality. (体现非自治性的外部主权源)
 
 ### 2. Topological Contraction & Governance (拓扑收缩与治理)
-The system constrains the "probabilistic drift" of LLMs by defining a **Minimal Closure Kernel ($\mathcal{K}_{min}$)**. In this framework, **hallucination governance is an intrinsic byproduct of topological contraction**, not a targeted intervention.
+The system constrains the "probabilistic drift" of LLMs by defining a **Minimal Closure Kernel ($K_{min}$)**. In this framework, **hallucination governance is an intrinsic byproduct of topological contraction**, not a targeted intervention.  
 
-系统通过定义“**最小闭合内核 ($\mathcal{K}_{min}$)**”强制约束 LLM 的“概率漂移”。在此框架下，**幻觉治理被定义为拓扑收缩的内生副产物**，而非外部的目标性干预。
+系统通过定义“**最小闭合内核 ($K_{min}$)**”强制约束 LLM 的“概率漂移”。在此框架下，**幻觉治理被定义为拓扑收缩的内生副产物**，而非外部的目标性干预。
 
 ---
 
 ## 📂 Repository Structure / 仓库结构
 
 * **[/Papers](./Papers)**: 
-    * **[Protocol-as-System (PDF)](./Papers/Protocol_as_System：A_Declarative_Protocol_Computing_Paradigm_for_Auditable_AI_Generation.pdf)** - 系统架构范式与 PC-ITS 形式化证明。
-    * **[Operational-Closure (PDF)](./Papers/Operational_Closure_and_Generative_Topological_Contraction.pdf)** - 运行闭合理论与生成拓扑收缩数学基础。
+    * **[Protocol-as-System (PDF)](./Papers/Protocol_as_System.pdf)** - 系统架构范式与 PC-ITS 形式化证明。
+    * **[Operational-Closure (PDF)](./Papers/Operational_Closure.pdf)** - 运行闭合理论与生成拓扑收缩数学基础。
 * **`/Protocols`**: Exemplars of Declarative Protocol Objects (DOC). (声明式协议对象示例)
 
 ---
