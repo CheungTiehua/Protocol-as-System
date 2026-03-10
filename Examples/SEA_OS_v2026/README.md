@@ -70,7 +70,5 @@ This case is an engineering demonstration of the **Protocol-as-System (PaS)** th
 
 ## 📂 文件夹文件说明 / Files in this directory
 
-* **[SEA_OS_v2026.2.9a.txt](./SEA_OS_v2026.2.9a.txt)** - 完整的操作系统规范文本（协议本体）。
-* **[SEA_OS_v2026.2.9a.txt](./SEA_OS_v2026.2.9a.txt)** - Complete operating system specification text (Protocol Ontology).
-* **[SEA_OS_README.pdf](./SEA_OS_README.pdf)** - 原始设计说明书。
-* **[SEA_OS_README.pdf](./SEA_OS_README.pdf)** - Original design specification document.
+* **[SEA_OS_v2026.2.9a.txt](./SEA_OS_v2026.2.9a.txt)** - 完整的操作系统规范文本（协议本体）。Complete operating system specification text (Protocol Ontology).
+* **[SEA_OS_README.pdf](./SEA_OS_README.pdf)** - 原始设计说明书。Original design specification document.
