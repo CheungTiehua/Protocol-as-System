@@ -40,8 +40,8 @@ The system constrains the "probabilistic drift" of LLMs by defining a **Minimal 
 ## 📂 Repository Structure / 仓库结构
 
 * **`/Papers`**: 
-    * `Protocol-as-System.pdf/docx`: The system architecture paradigm. (系统架构范式)
-    * `Operational_Closure.pdf/docx`: The underlying mathematical/topological theory. (底层数学/拓扑理论)
+    * `Protocol-as-System.pdf/docx`: Protocol_as_System：A Declarative Protocol Computing Paradigm for Auditable AI Generation. (协议即系统)
+    * `Operational_Closure.pdf/docx`: Operational_Closure_and_Generative_Topological_Contraction. (声明式运行闭包)
 * **`/Examples`**: Demonstrations of DOC and PaS implementations. (协议实现示例)
 
 ---
